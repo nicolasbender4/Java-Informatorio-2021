@@ -1,4 +1,4 @@
-package Complementarios2;
+package EjerciciosComplementariosLevel2;
 
 import java.util.ArrayList;
 
@@ -12,6 +12,6 @@ operación sort (mezclar) aleatoriamente? Idem para el reverso
 public class Ejercicio3 {
     public static void main(String[] args) {
         ArrayList<String> numeros = new ArrayList<>();
-         
+
     }
 }

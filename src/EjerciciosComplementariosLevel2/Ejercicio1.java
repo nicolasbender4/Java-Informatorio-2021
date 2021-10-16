@@ -1,4 +1,4 @@
-package Complementarios2;
+package EjerciciosComplementariosLevel2;
 
 import java.util.ArrayList;
 
@@ -6,7 +6,7 @@ import java.util.ArrayList;
 Crear un ArrayList y cargarlo con tus ciudades favoritas de Argentina, 
 luego imprimir por pantalla el ranking
 */
-public class Ejercico1 {
+public class Ejercicio1 {
     public static void main(String[] args) {
         ArrayList<String> cadena = new ArrayList<>();
         cadena.add("Mar del Plata");
