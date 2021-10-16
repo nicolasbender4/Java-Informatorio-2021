@@ -17,7 +17,8 @@ public class Ejercicio2 {
             num1 = entrada.nextInt();
             System.out.println("Ingrese otro número: ");
             num2 = entrada.nextInt();
-
+            entrada.close();
+            
             suma = num1 + num2;
             resta = num1 - num2;
             multiplicacion = num1 * num2;
