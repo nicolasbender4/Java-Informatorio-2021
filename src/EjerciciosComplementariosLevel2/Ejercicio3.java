@@ -24,10 +24,7 @@ public class Ejercicio3 {
         }
         //  Mazo Ordenado  
         System.out.println("Mazo ordenado");
-        for (String c : cartas) {
-            System.out.print(c + ", ");
-        }
-        System.out.println();
+        System.out.println(cartas);
 
         //  Mazo al Revés
         System.out.println("Mazo Al Revés");
