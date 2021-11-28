@@ -1,4 +1,6 @@
 package EjerciciosComplementariosLevel3;
+//  Dada una lista que contiene valores de tipo String, se deberá filtrar
+//  todos los valores que NO sean null o vacío ("").
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,10 +15,13 @@ public class Ejercicio1 {
         palabras.add(null);
         palabras.add("Informatorio");
         palabras.add("");
-        List<String> palabrasNoNulas = palabras.stream()
+        System.out.println(calcularPalabrasNoNulas(palabras));
+    }
+
+    private static List<String> calcularPalabrasNoNulas(List<String> palabras){
+        return palabras.stream()
                 .filter(Objects::nonNull)
                 .filter(pal -> !pal.equals(""))
                 .collect(Collectors.toList());
-        System.out.println(palabrasNoNulas);
     }
 }
